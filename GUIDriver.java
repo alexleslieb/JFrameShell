@@ -8,13 +8,14 @@ public class GUIDriver
 {
     public static void main(String[] arg)
     {
-        JFrame workHour = new JFrame ("Work Time [v 2.6.0]");
+        JFrame workHour = new JFrame ("Shell");
 
         //ImageIcon img = new ImageIcon("Pictures\\icon.png");
-        ImageIcon img = new ImageIcon("icon.png");
+        String icon = "icon.png";
+        ImageIcon img = new ImageIcon(icon);
         workHour.setIconImage(img.getImage());
         
-        //workHour.setPreferredSize(new Dimension(855,613));  
+        //workHour.setPreferredSize(new Dimension(855,655));  
         workHour.setResizable(false);
         
         workHour.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);      
